@@ -43,16 +43,52 @@ a {
 /* Hero Styles */
 .hero {
     display: flex;
+    padding-top: 50px;
     padding-left: 240px;
     padding-right: 240px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
 }
 
-.hero-image {
+.hero-text {
     display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
-.hero-image > img {
-    max-block-size: 499px;
+.hero-text > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text > p {
+    font-size: 18px;
+    max-width: 500px;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero > div > img {
+    width: 800px;
+    height: 200px;
+    margin-left: 50px;
+    object-fit: cover;
+    object-position: 20% 80%;
 }
 
 /* Images Styles */
