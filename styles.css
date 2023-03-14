@@ -41,6 +41,19 @@ a {
 }
 
 /* Hero Styles */
+.hero {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.hero-image {
+    display: flex;
+}
+
+.hero-image > img {
+    max-block-size: 499px;
+}
 
 /* Images Styles */
 
