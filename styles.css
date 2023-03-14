@@ -1,14 +1,42 @@
+/* General Styles */
+
+* {
+    font-family: 'Roboto', 'sans-serif';
+}
+
 /* Header Styles */
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #1F2937;
+}
+
+.logo {
+    padding-left: 10em;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
     display: flex;
+    gap: 1em;
 }
 
-/* Title Styles */
+.header-links > li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero Styles */
 
 /* Images Styles */
 
