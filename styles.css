@@ -167,8 +167,48 @@ a {
     font-style: normal;
     align-self: flex-end;
     padding-right: 240px;
+    flex-shrink: 0;
 }
 
 /* Button Styles */
+
+.button-section {
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 500px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+}
+
+.button-text {
+    padding-right: 100px;
+}
+
+.button-text > h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button-text > p {
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+.button-container > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 50px;
+    border-color: #F9FAF8;
+    padding: 12px 100px;
+}
 
 /* Footer Styles */
